@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 
 # Leitura de imagem
-img = cv2.imread("FotosIEEE/shapes.png")
+img = cv2.imread("shapes.png")
 
 # Deixando a imagem cinza
 imgGray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
